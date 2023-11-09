@@ -1,0 +1,154 @@
+@media (min-width: 700px) {
+    .contain {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 1200px;
+        margin: 4em auto 0 auto;
+        /* border: 1px solid blue; */
+        background-color: #f8f9fa;
+        padding: 2em 1% 2em 5%;
+        height: 150px;
+        align-items: center;
+    }
+    .other04 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1em;
+        padding: 2em 1%;
+        /* border: 1px solid blue; */
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .other04 h3 {
+        font-style: italic;
+        font-weight: normal;
+    }
+    .other04 h6 {
+        font-style: italic;
+        font-weight: normal;
+        color: #9faebe;
+    }
+    .other04-left {
+        /* border: 1px solid green; */
+        height: 80px;
+    }
+    .other04-form {
+        border: 1px solid #9faebe;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 2em;
+    }
+    .other04-form input {
+        width: 75%;
+        height: 100%;
+        border: none;
+        padding-left: 12px;
+    }
+    .other04-form button {
+        width: 25%;
+        height: 100%;
+        background-color: black;
+        color: white;
+        font-size: 18px;
+        border: none;
+    }
+    .other04-form input:focus {
+        outline: 1px solid #383b3d;
+    }
+    .other {
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid green; */
+        padding-left: 5em;
+    }
+    .other h4 {
+        font-style: italic;
+        font-weight: normal;
+    }
+    .other h6 {
+        font-style: italic;
+        font-weight: normal;
+        color: #9faebe;
+    }
+}
+@media (max-width: 699px) {
+    .contain {
+        display: flex;
+        flex-direction: column;
+        max-width: 1200px;
+        margin: 4em auto 0 auto;
+        /* border: 1px solid blue; */
+        background-color: #f8f9fa;
+        padding: 2em;
+        /* height: 150px; */
+        align-items: center;
+        justify-content: center;
+    }
+    .other04 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1em;
+        padding: 2em 1%;
+        /* border: 1px solid blue; */
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .other04 h3 {
+        font-style: italic;
+        font-weight: normal;
+    }
+    .other04 h6 {
+        font-style: italic;
+        font-weight: normal;
+        color: #9faebe;
+        /* margin-bottom: -6px; */
+    }
+    .other04-left {
+        /* border: 1px solid green; */
+        /* height: 80px; */
+        margin-top: 1em;
+    }
+    .other04-form {
+        border: 1px solid #9faebe;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 2em;
+    }
+    .other04-form input {
+        width: 75%;
+        height: 100%;
+        border: none;
+        padding-left: 12px;
+    }
+    .other04-form input:focus {
+        outline: 1px solid #383b3d;
+    }
+    .other04-form button {
+        width: 25%;
+        height: 100%;
+        background-color: black;
+        color: white;
+        font-size: 18px;
+        border: none;
+    }
+    .other {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid green; */
+        /* padding-left: 5em; */
+    }
+    .other h4 {
+        font-style: italic;
+        font-weight: normal;
+    }
+    .other h6 {
+        font-style: italic;
+        font-weight: normal;
+        color: #9faebe;
+        margin-bottom: 2em;
+    }
+}

@@ -1,0 +1,264 @@
+@media (min-width: 640px) {
+    .messenger {
+        position: fixed;
+
+        z-index: 99;
+        right: 10%;
+        top: 20%;
+    }
+    .contain {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 480px;
+        padding: 1em;
+        box-shadow: 3px 3px 6px 6px #0000001e;
+        border-radius: 12px;
+        animation: message 1s 1;
+        background-color: white;
+    }
+    @keyframes message {
+        0% {
+            /* background-color: yellow; */
+            transform: rotate(-3deg);
+        }
+        25% {
+            /* background-color: green; */
+            transform: rotate(3deg);
+        }
+        50% {
+            /* background-color: yellow; */
+            transform: rotate(-3deg);
+        }
+        75% {
+            /* background-color: green; */
+            transform: rotate(3deg);
+        }
+        100% {
+            /* background-color: white; */
+            transform: rotate(0deg);
+        }
+    }
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header h5 {
+        font-size: 18px;
+    }
+    .header button {
+        font-size: 14px;
+        border: none;
+        width: 130px;
+        height: 30px;
+        border-radius: 3px;
+    }
+    .customer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 1em;
+        margin-bottom: 1em;
+    }
+    .customer-message {
+        background-color: rgb(145, 145, 240);
+        color: white;
+        padding: 2%;
+        font-weight: 4;
+        font-style: italic;
+        border-radius: 3px;
+    }
+    .support {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        width: 80%;
+        margin-bottom: 6em;
+    }
+    .support span {
+        background-color: rgb(233, 231, 231);
+        color: rgb(114, 114, 114);
+        padding: 2%;
+        font-size: 16px;
+        border-radius: 3px;
+        font-style: italic;
+    }
+    .support-admin {
+        display: flex;
+        font-size: 24px;
+        font-style: normal;
+        gap: 6px;
+        align-items: center;
+    }
+    .message {
+        display: flex;
+        width: 480px;
+        height: 64px;
+        /* border: 1px solid green; */
+        gap: 1em;
+        align-items: center;
+        padding: 2%;
+        background-color: rgb(233, 231, 231);
+        margin-left: -1em;
+        margin-bottom: -1em;
+        border-radius: 0 0 12px 12px;
+    }
+    .message label {
+        font-size: 24px;
+    }
+    .message input {
+        width: 50%;
+        border: none;
+    }
+    .message-icons {
+        display: flex;
+        gap: 1em;
+    }
+    .portal-button {
+        position: fixed;
+        right: 10%;
+        bottom: 20%;
+        border: none;
+        background: none;
+        z-index: 99;
+        background-color: rgb(206, 211, 240);
+        border-radius: 50%;
+        /* border: 1px solid green; */
+    }
+    .portal-button svg {
+        font-size: 36px;
+    }
+}
+@media (max-width: 639px) {
+    .messenger {
+        position: fixed;
+
+        z-index: 99;
+        right: 1%;
+        top: 20%;
+    }
+    .contain {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 360px;
+        padding: 1em;
+        box-shadow: 3px 3px 6px 6px #0000001e;
+        border-radius: 12px;
+        animation: message 1s 1;
+        background-color: white;
+    }
+    @keyframes message {
+        0% {
+            /* background-color: yellow; */
+            transform: rotate(-3deg);
+        }
+        25% {
+            /* background-color: green; */
+            transform: rotate(3deg);
+        }
+        50% {
+            /* background-color: yellow; */
+            transform: rotate(-3deg);
+        }
+        75% {
+            /* background-color: green; */
+            transform: rotate(3deg);
+        }
+        100% {
+            /* background-color: white; */
+            transform: rotate(0deg);
+        }
+    }
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header h5 {
+        font-size: 18px;
+    }
+    .header button {
+        font-size: 14px;
+        border: none;
+        width: 130px;
+        height: 30px;
+        border-radius: 3px;
+    }
+    .customer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 1em;
+        margin-bottom: 1em;
+    }
+    .customer-message {
+        background-color: rgb(145, 145, 240);
+        color: white;
+        padding: 2%;
+        font-weight: 4;
+        font-style: italic;
+        border-radius: 3px;
+    }
+    .support {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        width: 80%;
+        margin-bottom: 6em;
+    }
+    .support span {
+        background-color: rgb(233, 231, 231);
+        color: rgb(114, 114, 114);
+        padding: 2%;
+        font-size: 16px;
+        border-radius: 3px;
+        font-style: italic;
+    }
+    .support-admin {
+        display: flex;
+        font-size: 24px;
+        font-style: normal;
+        gap: 6px;
+        align-items: center;
+    }
+    .message {
+        display: flex;
+        width: 360px;
+        height: 64px;
+        /* border: 1px solid green; */
+        gap: 1em;
+        align-items: center;
+        padding: 2%;
+        background-color: rgb(233, 231, 231);
+        margin-left: -1em;
+        margin-bottom: -1em;
+        border-radius: 0 0 12px 12px;
+    }
+    .message label {
+        font-size: 24px;
+    }
+    .message input {
+        width: 50%;
+        border: none;
+    }
+    .message-icons {
+        display: flex;
+        gap: 1em;
+    }
+    .portal-button {
+        position: fixed;
+        right: 10%;
+        bottom: 20%;
+        border: none;
+        background: none;
+        z-index: 99;
+        background-color: rgb(206, 211, 240);
+        border-radius: 50%;
+        /* border: 1px solid green; */
+    }
+    .portal-button svg {
+        font-size: 36px;
+    }
+}

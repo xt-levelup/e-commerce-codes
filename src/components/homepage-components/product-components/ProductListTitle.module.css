@@ -1,0 +1,16 @@
+.contain {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid blue; */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2em 2% 0 2%;
+}
+.title {
+    color: #9faebe;
+    margin-bottom: -0.1rem;
+}
+.description {
+    color: black;
+    font-size: 24px;
+}

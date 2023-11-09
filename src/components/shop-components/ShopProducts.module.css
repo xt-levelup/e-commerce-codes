@@ -1,0 +1,104 @@
+@media (min-width: 840px) {
+    .images {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
+        /* border: 1px solid green; */
+        padding: 1%;
+        gap: 1em;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2em;
+    }
+
+    .images img {
+        width: 100%;
+        height: 80%;
+        object-fit: fill;
+        cursor: pointer;
+        transition: transform 0.5s;
+        margin-bottom: 0.5em;
+    }
+    .images img:hover {
+        filter: brightness(1.1);
+        transform: scale(1.05);
+    }
+    .images p {
+        color: black;
+    }
+    .details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .details h6 {
+        padding: 0 1em;
+    }
+    .showing {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        /* border: 1px solid green; */
+        padding: 1%;
+        gap: 1em;
+    }
+    .showing button {
+        width: 36px;
+        height: 36px;
+        border: 1px solid rgb(75, 62, 62);
+        border-radius: 3px;
+    }
+}
+@media (max-width: 839px) {
+    .images {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        /* border: 1px solid green; */
+        padding: 1%;
+        gap: 1em;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2em;
+    }
+
+    .images img {
+        width: 100%;
+        height: 80%;
+        object-fit: fill;
+        cursor: pointer;
+        transition: transform 0.5s;
+        margin-bottom: 0.5em;
+    }
+    .images img:hover {
+        filter: brightness(1.1);
+        transform: scale(1.05);
+    }
+    .images p {
+        color: black;
+    }
+    .details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .details h6 {
+        padding: 0 1em;
+    }
+    .showing {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        /* border: 1px solid green; */
+        padding: 1%;
+        gap: 1em;
+    }
+    .showing button {
+        width: 36px;
+        height: 36px;
+        border: 1px solid rgb(75, 62, 62);
+        border-radius: 3px;
+    }
+}

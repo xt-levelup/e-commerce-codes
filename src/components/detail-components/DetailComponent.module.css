@@ -1,0 +1,321 @@
+@media (min-width: 850px) {
+    .contain {
+        max-width: 1200px;
+        margin: 0 auto;
+        /* border: 1px solid blue; */
+        padding: 1%;
+    }
+
+    .banner {
+        max-width: 1200px;
+        /* border: 1px solid blue; */
+        margin: 0 auto 3em auto;
+        height: 150px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3em;
+        background-color: rgb(211, 212, 201);
+    }
+
+    .banner h2,
+    h6 {
+        font-style: italic;
+    }
+    .banner h6 {
+        color: rgb(122, 122, 118);
+    }
+    .information {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* border: 1px solid blue; */
+    }
+    .information img {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+    }
+    .information p {
+        color: rgb(114, 109, 109);
+    }
+    .information span {
+        /* font-weight: bold; */
+        color: black;
+    }
+    .information svg {
+        width: 18px;
+        cursor: pointer;
+    }
+    .information h3 {
+        font-style: italic;
+        margin-bottom: 1em;
+    }
+    .information h6 {
+        font-style: italic;
+        margin-bottom: 2em;
+        font-weight: normal;
+        color: rgb(114, 109, 109);
+    }
+    .info-des {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1%;
+    }
+    .form {
+        display: flex;
+        border: 1px solid rgb(196, 184, 184);
+        width: 70%;
+        height: 36px;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 1em;
+        border-radius: 6px;
+    }
+    .form button {
+        background-color: black;
+        color: white;
+        height: 100%;
+        width: 36%;
+        margin-left: -2em;
+        border: none;
+        border-radius: 0 6px 6px 0;
+    }
+    .number {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+    .description {
+        display: flex;
+        flex-direction: column;
+        padding: 1%;
+        /* width: 60%; */
+        /* border: 1px solid green; */
+    }
+    .description h5 {
+        font-size: 14px;
+        background-color: black;
+        width: 144px;
+        color: white;
+        height: 36px;
+        font-weight: normal;
+        font-style: italic;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        margin: 3em 0 0 0;
+    }
+    .description h6 {
+        margin: 1em 0 1.5em 0;
+    }
+    .description p {
+        color: rgb(114, 109, 109);
+        line-height: 1em;
+    }
+    .related {
+        display: flex;
+        flex-direction: column;
+        padding: 1%;
+        margin-top: 3em;
+    }
+    .related h5 {
+        font-style: italic;
+        margin-bottom: 1em;
+    }
+    .related-products {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1em;
+        /* padding: 1%; */
+    }
+    .related-products img {
+        width: 100%;
+        height: 80%;
+        object-fit: fill;
+        cursor: pointer;
+        transition: transform 0.5s;
+        margin-bottom: 1em;
+    }
+    .related-products img:hover {
+        transform: scale(1.05);
+        filter: brightness(1.1);
+    }
+    .related-product-details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .related-product-details h5 {
+        font-size: 16px;
+        text-align: center;
+        font-style: italic;
+    }
+    .related-product-details h6 {
+        color: rgb(114, 109, 109);
+        font-weight: normal;
+    }
+}
+@media (max-width: 849px) {
+    .contain {
+        max-width: 1200px;
+        margin: 0 auto;
+        /* border: 1px solid blue; */
+        padding: 1%;
+    }
+
+    .banner {
+        max-width: 1200px;
+        /* border: 1px solid blue; */
+        margin: 0 auto 3em auto;
+        height: 150px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3em;
+        background-color: rgb(211, 212, 201);
+    }
+
+    .banner h2,
+    h6 {
+        font-style: italic;
+    }
+    .banner h6 {
+        color: rgb(122, 122, 118);
+    }
+    .information {
+        display: flex;
+        flex-direction: column;
+
+        /* border: 1px solid blue; */
+    }
+    .information img {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+    }
+    .information p {
+        color: rgb(114, 109, 109);
+    }
+    .information span {
+        /* font-weight: bold; */
+        color: black;
+    }
+    .information svg {
+        width: 18px;
+        cursor: pointer;
+    }
+    .information h3 {
+        font-style: italic;
+        margin-bottom: 1em;
+    }
+    .information h6 {
+        font-style: italic;
+        margin-bottom: 2em;
+        font-weight: normal;
+        color: rgb(114, 109, 109);
+    }
+    .info-des {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1%;
+    }
+    .form {
+        display: flex;
+        border: 1px solid rgb(196, 184, 184);
+        width: 80%;
+        height: 36px;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 1em;
+        border-radius: 6px;
+    }
+    .form button {
+        background-color: black;
+        color: white;
+        height: 100%;
+        width: 36%;
+        margin-left: -2em;
+        border: none;
+        border-radius: 0 6px 6px 0;
+    }
+    .number {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+    .description {
+        display: flex;
+        flex-direction: column;
+        padding: 1%;
+        /* width: 60%; */
+        /* border: 1px solid green; */
+    }
+    .description h5 {
+        font-size: 14px;
+        background-color: black;
+        width: 144px;
+        color: white;
+        height: 36px;
+        font-weight: normal;
+        font-style: italic;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        margin: 3em 0 0 0;
+    }
+    .description h6 {
+        margin: 1em 0 1.5em 0;
+    }
+    .description p {
+        color: rgb(114, 109, 109);
+        line-height: 1em;
+    }
+    .related {
+        display: flex;
+        flex-direction: column;
+        padding: 1%;
+        margin-top: 3em;
+    }
+    .related h5 {
+        font-style: italic;
+        margin-bottom: 1em;
+    }
+    .related-products {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1em;
+        /* padding: 1%; */
+    }
+    .related-products img {
+        width: 100%;
+        height: 80%;
+        object-fit: fill;
+        cursor: pointer;
+        transition: transform 0.5s;
+        margin-bottom: 1em;
+    }
+    .related-products img:hover {
+        transform: scale(1.05);
+        filter: brightness(1.1);
+    }
+    .related-product-details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .related-product-details h5 {
+        font-size: 16px;
+        text-align: center;
+        font-style: italic;
+    }
+    .related-product-details h6 {
+        color: rgb(114, 109, 109);
+        font-weight: normal;
+    }
+}

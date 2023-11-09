@@ -1,0 +1,15 @@
+.contain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 10px 0;
+}
+.contain h6 {
+    color: #9faebe;
+    font-style: italic;
+}
+.contain h4 {
+    color: rgb(80, 61, 61);
+    font-style: italic;
+}

@@ -1,0 +1,171 @@
+@media (min-width: 760px) {
+    .contain {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 20px 1%;
+
+        align-items: center;
+
+        max-width: 1200px;
+        margin: 0 auto;
+        /* border: 1px solid blue; */
+    }
+    .content1 {
+        display: flex;
+        gap: 1em;
+        /* border: 1px solid green; */
+    }
+    .content2 {
+        display: flex;
+        gap: 1em;
+        /* border: 1px solid green; */
+        justify-content: flex-end;
+    }
+
+    .contain h2 {
+        text-align: center;
+        font-style: italic;
+    }
+    .contain a {
+        text-decoration: none;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 18px;
+        color: black;
+    }
+    a.icon {
+        display: flex;
+        align-items: center;
+        gap: 3px;
+    }
+    .contain a svg {
+        width: 24px;
+    }
+    .auth {
+        display: flex;
+        /* border: 1px solid green; */
+        /* width: 100%; */
+        /* justify-content: flex-end; */
+        align-items: center;
+        gap: 1em;
+    }
+    .auth span {
+        display: flex;
+        gap: 0.5em;
+    }
+    .auth button {
+        border: none;
+        background: none;
+    }
+    /* .contain span {
+        display: flex;
+        border: 1px solid green;
+        width: 100%;
+    } */
+    .contain span svg {
+        width: 24px;
+    }
+    .contain a.active {
+        /* color: #d6d669; */
+        color: #96961f;
+        display: flex;
+        align-items: center;
+        gap: 3px;
+    }
+    .contain a {
+        transition: transform 0.5s;
+    }
+    .contain a:hover {
+        transform: scale(1.2);
+        /* color: #72720c; */
+        color: #d6d669;
+    }
+}
+@media (max-width: 759px) {
+    .contain {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        padding: 20px 1%;
+
+        align-items: center;
+        justify-content: center;
+
+        max-width: 1200px;
+        margin: 0 auto;
+        /* border: 1px solid blue; */
+    }
+    .content1 {
+        display: flex;
+        gap: 1em;
+        /* border: 1px solid green; */
+        justify-content: center;
+    }
+    .content2 {
+        display: flex;
+        gap: 1em;
+        /* border: 1px solid green; */
+        justify-content: flex-end;
+        justify-content: center;
+    }
+
+    .contain h2 {
+        display: none;
+        text-align: center;
+        font-style: italic;
+    }
+    .contain a {
+        text-decoration: none;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 18px;
+        color: black;
+    }
+    a.icon {
+        display: flex;
+        align-items: center;
+        gap: 3px;
+    }
+    .contain a svg {
+        width: 24px;
+    }
+    .auth {
+        display: flex;
+        /* border: 1px solid green; */
+        /* width: 100%; */
+        /* justify-content: flex-end; */
+        align-items: center;
+        gap: 1em;
+    }
+    .auth span {
+        display: flex;
+        gap: 0.5em;
+    }
+    .auth button {
+        border: none;
+        background: none;
+    }
+    /* .contain span {
+        display: flex;
+        border: 1px solid green;
+        width: 100%;
+    } */
+    .contain span svg {
+        width: 24px;
+    }
+    .contain a.active {
+        /* color: #d6d669; */
+        color: #96961f;
+        display: flex;
+        align-items: center;
+        gap: 3px;
+    }
+    .contain a {
+        transition: transform 0.5s;
+    }
+    .contain a:hover {
+        transform: scale(1.2);
+        /* color: #72720c; */
+        color: #d6d669;
+    }
+}
